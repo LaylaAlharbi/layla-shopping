@@ -1,0 +1,43 @@
+.sortContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+  
+  .productCount {
+    font-size: 0.9rem;
+    color: #6c757d;
+  }
+  
+  .sortOptions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .sortLabel {
+    font-size: 0.9rem;
+    color: #495057;
+  }
+  
+  .sortSelect {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    background-color: white;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .sortSelect:hover {
+    border-color: #6c757d;
+  }
+  
+  .sortSelect:focus {
+    outline: none;
+    border-color: #6e8efb;
+    box-shadow: 0 0 0 2px rgba(110, 142, 251, 0.2);
+  }
