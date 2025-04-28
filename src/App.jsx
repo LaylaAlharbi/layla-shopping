@@ -159,7 +159,7 @@ function App() {
         />
       </main>
       <footer className={styles.footer}>
-        <p>© 2023 Layla's Store. All rights reserved.</p>
+        <p>© 2025 Layla's Store. All rights reserved.</p>
       </footer>
     </div>
   );
